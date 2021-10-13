@@ -3,8 +3,8 @@
     <div class="text-container">
       <h1 class="header">Find your Fire Extinguisher</h1>
       <p class="snippet">
-        Lorem ipsum dolor sit amet. Consectetur adiscpling elit. Iste lusto
-        quidem asperioce. Cum nisi elus ipsa antarte
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto
+        illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!
       </p>
       <button class="button btn">Start Looking</button>
     </div>
@@ -28,8 +28,8 @@ export default {};
   padding: 5rem 0;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 10rem;
 }
-
 .text-container {
   width: 50%;
   margin-top: 4rem;
@@ -46,7 +46,13 @@ export default {};
   width: 27.5rem;
   margin-top: 2rem;
 }
-
+.overlay {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
 .button {
   padding: 1rem 4rem;
   border-radius: 100rem;
@@ -59,7 +65,6 @@ export default {};
 .button:hover {
   width: 21.5rem;
 }
-
 @media (max-width: 500px) {
   .Hero {
     height: 40vh;
