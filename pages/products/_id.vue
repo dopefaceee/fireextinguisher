@@ -50,8 +50,7 @@
     <!-- <Reviews /> -->
   </div>
   <div v-else class="container padding">
-    <!-- <PageNotFound /> -->
-    Page not found
+    <PageNotFound />
   </div>
 </template>
 
